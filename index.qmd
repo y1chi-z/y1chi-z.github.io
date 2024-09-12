@@ -1,5 +1,5 @@
 ---
-title: "Hello DSCI 521: smile or you're doing it wrong"
+title: "Essie's website"
 ---
 
 This is a Quarto website.
