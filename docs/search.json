@@ -4,12 +4,12 @@
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "About this site"
+    "text": "About this site\nHello world! My name is Essie Zhang, and I am currently a UBC MDS student. I graduated from Boston University 2 years ago. This is my first time living in Canada. I am a huge dog person. My dog name is Yelo and she is a three years old shiba inu. I love jogging outside when the weather is nice."
   },
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Hello DSCI 521: smile or you’re doing it wrong",
+    "title": "Essie’s website",
     "section": "",
     "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
   }
