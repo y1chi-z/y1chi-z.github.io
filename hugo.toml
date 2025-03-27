@@ -1,13 +1,13 @@
 ## Basic Configuration
 
-baseurl = "https://y1chi-z.github.io/"
+baseURL = "https://y1chi-z.github.io/"
 builddrafts = false
 canonifyurls = false
 languageCode = "en-US"
 
 contentdir = "content"
 layoutdir = "layouts"
-publishdir = "public"
+publishDir = "docs" 
 
 author = "Essie Zhang"
 title = "Essie Zhang"
@@ -24,7 +24,7 @@ enableRobotsTXT = true
 author = "Essie Zhang"
 intro = "Data Scientist"
 description = "Placeholder"
-authorimage = "essie.jpg"
+authorimage = "/Users/yichi/Documents/GitHub/y1chi-z.github.io/themes/hugo-goa/images/essie.jpg"
 dateformat = "Mar 26, 2025"
 
 ## Site Meta Settings
