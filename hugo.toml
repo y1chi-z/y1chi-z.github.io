@@ -1,0 +1,61 @@
+## Basic Configuration
+
+baseurl = "https://shenoydotme.github.io/"
+builddrafts = false
+canonifyurls = false
+languageCode = "en-US"
+
+contentdir = "content"
+layoutdir = "layouts"
+publishdir = "public"
+
+author = "Essie Zhang"
+title = "Essie Zhang"
+
+theme = "hugo-goa"
+
+## Hugo Built-in Features
+# disqusShortname = "discusShortname" # Enable if you want to use Disqus
+# googleAnalytics = "UA-XXXXXXXX-X" # Enable if you want to use Google Analytics
+enableRobotsTXT = true
+
+## Site Settings
+[params]
+author = "Essie Zhang"
+intro = "Data Scientist"
+description = "placeholder"
+authorimage = "profile.jpg"
+dateformat = "Jan 2, 2006"
+
+## Site Meta Settings
+[params.meta]
+description = "Simple minimalist theme"
+keywords = "minimalist,blog,goa,hugo,developer"
+
+## Social Accounts
+[params.social]
+github = "https://github.com/y1chi-z"
+linkedin = "https://www.linkedin.com/in/yichi-z/"
+email = "zhangyichi0306@gmail.com"
+
+## Extras
+[params.extra]
+copyright = "© 2025. Essie Zhang. [Some Rights Reserved](http://creativecommons.org/licenses/by/3.0/)."
+poweredby = true
+highlightjs = true
+socialmarkup = true
+toc = true
+displayrssicon = true
+
+## Main Menu
+[[menu.main]]
+name = "about"
+identifier = "about"
+weight = 200
+url = "about/"
+
+[[menu.main]]
+name = "projects"
+identifier = "projects"
+weight = 200
+url = "projects/"
