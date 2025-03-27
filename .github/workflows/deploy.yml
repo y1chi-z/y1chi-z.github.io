@@ -1,0 +1,37 @@
+name: Deploy Hugo
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          submodules: 'recursive'
+          fetch-depth: 0
+
+      - uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: 'latest'
+          extended: true
+
+      - run: |
+          # Clean build with forced output
+          rm -rf docs/
+          hugo --minify --destination docs --cleanDestinationDir
+          
+          # Nuclear Jekyll bypass
+          touch .nojekyll
+          touch docs/.nojekyll
+          
+          # Ensure index.html exists
+          [ -f docs/index.html ] || echo '<html><body>Welcome</body></html>' > docs/index.html
+
+      - uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./docs
+          force_orphan: true  # Completely clean previous builds
