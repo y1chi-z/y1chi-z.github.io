@@ -1,4 +1,56 @@
-baseURL = 'https://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
-theme = 'hugo-goa'
+## Basic Configuration
+
+baseurl = "https://y1chi-z.github.io/"
+builddrafts = false
+canonifyurls = false
+languageCode = "en-US"
+
+contentdir = "content"
+layoutdir = "layouts"
+publishdir = "public"
+
+author = "Essie Zhang"
+title = "Essie Zhang"
+
+theme = "hugo-goa"
+
+## Hugo Built-in Features
+# disqusShortname = "discusShortname" # Enable if you want to use Disqus
+# googleAnalytics = "UA-XXXXXXXX-X" # Enable if you want to use Google Analytics
+enableRobotsTXT = true
+
+## Site Settings
+[params]
+author = "Essie Zhang"
+intro = "Data Scientist"
+description = "Placeholder"
+authorimage = "essie.jpg"
+dateformat = "Mar 26, 2025"
+
+## Site Meta Settings
+[params.meta]
+description = "Simple minimalist theme"
+keywords = "minimalist,blog,goa,hugo,developer"
+
+## Social Accounts
+[params.social]
+github = "https://github.com/y1chi-z"
+linkedin = "https://www.linkedin.com/in/yichi-z/"
+email = "zhangyichi0306@gmail.com"
+
+## Main Menu
+[[menu.main]]
+name = "posts"
+weight = 100
+identifier = "posts"
+url = "posts/"
+[[menu.main]]
+name = "about"
+identifier = "about"
+weight = 200
+url = "about/"
+[[menu.main]]
+name = "projects"
+identifier = "projects"
+weight = 300
+url = "projects/"
