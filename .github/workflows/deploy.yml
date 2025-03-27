@@ -13,25 +13,28 @@ jobs:
           submodules: 'recursive'
           fetch-depth: 0
 
-      - uses: peaceiris/actions-hugo@v2
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
         with:
           hugo-version: 'latest'
           extended: true
 
-      - run: |
-          # Clean build with forced output
-          rm -rf docs/
+      - name: Build
+        run: |
+          # Initialize and update submodules
+          git submodule update --init --recursive
+          
+          # Build with theme verification
+          hugo mod get -u
+          hugo mod tidy
           hugo --minify --destination docs --cleanDestinationDir
           
-          # Nuclear Jekyll bypass
-          touch .nojekyll
+          # Jekyll bypass
           touch docs/.nojekyll
-          
-          # Ensure index.html exists
-          [ -f docs/index.html ] || echo '<html><body>Welcome</body></html>' > docs/index.html
+          touch .nojekyll
 
       - uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./docs
-          force_orphan: true  # Completely clean previous builds
+          force_orphan: true

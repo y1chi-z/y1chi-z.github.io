@@ -1,18 +1,12 @@
 ## Basic Configuration
 
 baseURL = "https://y1chi-z.github.io/"
-builddrafts = false
-canonifyurls = false
-languageCode = "en-US"
-
-contentdir = "content"
-layoutdir = "layouts"
-publishDir = "docs" 
-
-author = "Essie Zhang"
-title = "Essie Zhang"
-
+publishDir = "docs"
 theme = "hugo-goa"
+
+[module]
+  [[module.imports]]
+    path = "github.com/shenoybr/hugo-goa"
 
 ## Hugo Built-in Features
 # disqusShortname = "discusShortname" # Enable if you want to use Disqus
