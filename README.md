@@ -23,7 +23,13 @@
 <!-- Projects -->
 ### 🚀 Projects
 
-- **UBC Medicine Datathon Winner (2025):** Developed a deep learning classifier to detect chest diseases from X-ray images, achieving 82% accuracy.
+### 🏆 UBC Medicine Datathon Winner (2025)
+Developed a deep learning model to detect chest diseases from X-ray images in a fast-paced team competition.
+
+- **Tech**: Python, PyTorch, scikit-learn, DenseNet
+- **Outcome**: Achieved **82% accuracy** on the validation set, and awarded **1st Place** for technical rigor and clinical relevance.
+
+---
 
 #### 📦 [DataMop: A Python Package for Streamlined EDA](https://github.com/y1chi-z/datamop)
 A user-friendly toolkit to automate exploratory data analysis and accelerate insights. Includes auto-profiling, missing value detection, and outlier checks.
@@ -46,8 +52,6 @@ Built and evaluated classification models to predict whether mushrooms are edibl
 
 - **Tech**: Scikit-learn, XGBoost, SHAP
 - **Outcome**: Achieved >90% accuracy with interpretable model outputs
-
-- **Insurance Credit Capstone (Boston University):** Improved AUC from 0.59 to 0.75 using advanced ensemble modeling techniques.
 
 ---
 
