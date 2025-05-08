@@ -60,9 +60,35 @@ Built and evaluated classification models to predict whether mushrooms are edibl
 
 **Data Scientist / Senior Business Analyst** at GrowingIO
 
-- Reduced MAPE from 90.3% to 19.8% in LEGO sales forecasting.
-- Built real-time dashboards and tagging systems for product analytics.
-- Led ad tracking and funnel analysis for Lululemon’s mini-program campaigns.
+Experienced in machine learning, data visualization, and marketing analytics across industries like retail and real estate.
+
+**Project: LEGO Demand Forecasting Model**
+- Developed a Python-based demand forecasting model using historical sales, campaign, and product data to predict two- month sales, reducing MAPE from 90.3% to 19.8%, directly supporting marketing planning and holiday campaign strategy.
+- Collaborated marketing team to integrate event calendars, discount schedules, and product lifecycle data into forecasting pipelines, and engineered domain-specific features to enhance predictive accuracy.
+- Optimized core modeling functions to loop across multiple product lines, reducing model training time by 50% and improving scalability for SKU-level forecasting.
+- Automated the end-to-end modeling workflow, enabling timely updates for ongoing sales forecasts and promotion planning.
+
+**Project: Ferragamo E-commerce User Behavior Analysis**
+- Built dashboards and a structured mapping of user behavior data across mini-program entry points, helping identify high- value user paths and optimize channel investment strategies.
+- Defined and tracked key metrics including PV, UV, segmented by entry scene, to guide targeted user acquisition efforts.
+- Evaluated user funnel performance to improve data-driven decision-making around pages placement and engagement.
+
+**Project: Lululemon Ad Tracking Analysis**
+- Led the design of user behavior tracking events for Lululemon’s mini-program ensuring accurate and complete data capture.
+- Defined event-level identifiers and custom dimensions to capture user source and campaigns for accurate funnel analysis.
+- Coordinated with frontend developers to implement client-side tracking logic across core user entry points and interactions.
+- Conducted weekly ad tracking analysis and maintained UTM tracking documents, identifying high-performing marketing channels that contributed to total GMV growth.
+
+**Project: Danone Product Analytics Dashboard**
+- Built and maintained dashboards for three product lines, enabling real-time monitoring of user behaviors.
+- Created modular and reusable Zeppelin paragraphs for metric monitoring, improving team efficiency in daily analysis tasks. 
+- Provided insights to improve UI design and product recommendations based on AB test.
+
+**Project: Real Estate Dashboard and Tag System**
+- Collaborated with product and operations teams to design tag logic, and implemented a multi-dimensional user tagging system to enhance personalized marketing, product recommendation, and user journey optimization.
+- Defined tag dimensions across user demographics, behavior, value tiers, and preferences, aligning with business goals.
+- Delivered training sessions and actionable insights to internal stakeholders and clients to improve decision-making.
+
 
 ---
 
