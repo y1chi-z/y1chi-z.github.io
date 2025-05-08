@@ -24,6 +24,29 @@
 ### 🚀 Projects
 
 - **UBC Medicine Datathon Winner (2025):** Developed a deep learning classifier to detect chest diseases from X-ray images, achieving 82% accuracy.
+
+#### 📦 [DataMop: A Python Package for Streamlined EDA](https://github.com/y1chi-z/datamop)
+A user-friendly toolkit to automate exploratory data analysis and accelerate insights. Includes auto-profiling, missing value detection, and outlier checks.
+
+- **Tech**: Python, Pandas, Seaborn
+- **Outcome**: Simplifies EDA workflows for analysts and data scientists
+
+---
+
+#### 🚗 [VDash: An Interactive Visualization Dashboard](https://github.com/y1chi-z/vdash)
+A real-time dashboard built with Dash and Plotly for exploring trends in vehicle data.
+
+- **Tech**: Dash, Plotly, Flask, Pandas
+- **Outcome**: Enables interactive filtering and drill-downs by model and region
+
+---
+
+#### 🍄 [Mushroom Classifier: Predicting Edibility from Morphological Features](https://github.com/y1chi-z/mushroom-classifier)
+Built and evaluated classification models to predict whether mushrooms are edible based on shape, color, and other traits.
+
+- **Tech**: Scikit-learn, XGBoost, SHAP
+- **Outcome**: Achieved >90% accuracy with interpretable model outputs
+
 - **Insurance Credit Capstone (Boston University):** Improved AUC from 0.59 to 0.75 using advanced ensemble modeling techniques.
 
 ---
